@@ -155,6 +155,32 @@ a {
     display: flex;
     flex-direction: column;
     width: 20%;
+    margin-right: 5%;
+}
+
+.dataframe {
+    width: min-content;
+    height: 40px;
+}
+
+.bannerframe {
+    width: fit-content;
+    height: fit-content;
+}
+
+.frames {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.adsDescText {
+    white-space: nowrap; 
+    color: currentColor; 
+    text-align: justify; 
+    text-transform: capitalize; 
+    text-overflow: ellipsis;
 }
 
 /* fim config. conteudo*/
