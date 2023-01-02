@@ -15,9 +15,9 @@
 ## Tecnologias 🖥️
 
 <div align="center">
-    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-    <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white">
-    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+    <img src="https://img.shields.io/badge/html%205-%2307405e.svg?style=for-the-badge&logo=html5&logoColor=orange">
+    <img src="https://img.shields.io/badge/css%203-%2307405e.svg?style=for-the-badge&logo=css3&logoColor=cyan">
+    <img src="https://img.shields.io/badge/JavaScript%20Native-%2307405e.svg?style=for-the-badge&logo=javascript&logoColor=yellow">
 </div>
 
 <a id="projeto"></a>
