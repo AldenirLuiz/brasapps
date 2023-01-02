@@ -1,5 +1,5 @@
 <h1 align="center">
-    Projeto de Blog Pessoal - 🏪
+    Projeto de Blog Pessoal - 🖥️
 </h1>
 
 <p align="center">
