@@ -90,10 +90,10 @@ footer {
     background-color: #f5f5f5;
 }
 
-.flow {
-    width: 80%;
+section.flow {
     max-width: 700px;
-    height: auto;
+    width: 50%;
+    height: 100%;
     border-radius: 0px 0px 8px 8px;
     border-top: 0px;
     border-left: 4px solid whitesmoke ;
@@ -167,13 +167,6 @@ footer {
     padding: 4px;
 }
 
-.ads {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    margin-right: 5%;
-}
-
 .dataframe {
     width: min-content;
     height: 40px;
@@ -203,6 +196,12 @@ footer {
 
 /* conf. ads */
 
+section.ads {
+    display: block;
+    width: 25%;
+    margin: 0;
+}
+
 .adsCard {
     padding: 8px;
     margin: 8px;
@@ -211,10 +210,9 @@ footer {
 }
 
 .spaceAds { /* ads presente na area de leitura do flow */
-    position: fixed;
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 100%;
 }
 
 .framesAds {
@@ -226,7 +224,7 @@ footer {
 }
 
 .imgAds {
-    width: 500px;
+    width: 100%;
     border: 2px dotted #f5f5f5;
     box-shadow: 0px 2px 4px 4px #f5f5f5;
 }
@@ -248,10 +246,10 @@ footer {
 
 /* Config navigation */
 
-.header.navigation {
-    display: flex;
-    width: 100%;
+section.navigation {
+    width: 25%;
     max-width: 150px;
+    max-height: 600px;
     height: 100%;
 }
 
@@ -263,7 +261,7 @@ footer {
     flex-direction: column;
     color: currentColor;
     text-decoration: none;
-    width: 150px;
+    width: 25%;
     height: 100%;
     border-right: 8px solid whitesmoke;
 }
