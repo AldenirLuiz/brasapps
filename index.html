@@ -35,7 +35,7 @@
                 <iframe class="dataframe"    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" allow="autoplay" allow-same-origin="yes" frameborder="0"></iframe>
             </div>
             <div class="framesAds" id="fixedAd">
-                <img class="imgAds" src="images/attachment_77501290.png" alt="ads">
+                <img class="imgAdsSide" src="images/attachment_77501290.png" alt="ads">
             </div>
         </div>
     </section>
@@ -58,9 +58,15 @@
                     <h3>O Apocalipse Religioso e Social</h3>
                 </div>
                 <div class="prologue">
-                    <span><button class="btn more">Continuar lendo...</button></span>
-                    <summary ></summary>
-                    <p class="hidden" style="visibility: hidden;">A odisseia do protagonista busca explanar uma visão social moldada pelos dogmas religiosos e os efeitos de sua ausência, também atenta aos valores morais dos indivíduos e a que ponto a humanidade e capaz de chegar para sobreviver. Trinta anos se passaram desde a grande guerra, e neste tempo a humanidade aprendeu a viver sem leis sem fé e a mercê de mercenários, ladroes e assassinos. <strong>Eli</strong> (<strong>Denzel Washington</strong>) carrega consigo um objeto tão comum, mas de valor inestimável para a humanidade, o que chama a atenção de um perigoso chefe de gangues, esse que compreende o verdadeiro poder do objeto e fará de tudo para obtê-lo mas <strong>Eli</strong> esta disposto a enfrentar qualquer obstáculo para cumprir com sua missão.</p>
+                    <span class="btnMore" id="btnMoreLivroEli">
+                        <button class="btn more" onclick="bttFunctionMore('more', 'LivroEli')">Continuar lendo...</button>
+                    </span>
+                    <div class="hiddenText">
+                        <p id="LivroEli">A odisseia do protagonista busca explanar uma visão social moldada pelos dogmas religiosos e os efeitos de sua ausência, também atenta aos valores morais dos indivíduos e a que ponto a humanidade e capaz de chegar para sobreviver. Trinta anos se passaram desde a grande guerra, e neste tempo a humanidade aprendeu a viver sem leis sem fé e a mercê de mercenários, ladroes e assassinos. <strong>Eli</strong> (<strong>Denzel Washington</strong>) carrega consigo um objeto tão comum, mas de valor inestimável para a humanidade, o que chama a atenção de um perigoso chefe de gangues, esse que compreende o verdadeiro poder do objeto e fará de tudo para obtê-lo mas <strong>Eli</strong> esta disposto a enfrentar qualquer obstáculo para cumprir com sua missão.</p>
+                        <span class="btnMore" id="btnMinLivroEli">
+                            <button class="btn more" onclick="bttFunctionMore('min', 'LivroEli')">Menos</button>
+                        </span>
+                    </div>
                 </div>
                 <div class="post_date">
                     <span>Posted at: 09/12/2022</span>
@@ -93,7 +99,7 @@
                 </div>
             </div>
             <div class="adsCard">
-                <img alt="ads" srcset="images/banner-ads-examples-aws.jpg">
+                <img class="imgAds" alt="ads" srcset="images/banner-ads-examples-aws.jpg">
             </div>
         </div>
     </section>
@@ -139,6 +145,7 @@
         </div>
     </section>
   </header>
+  <footer><span><img width="64" height="64" src="images/siteicon.jpg" alt="icon">2023 BRapps&reg;</span></footer>
   </section>
 </body>
 </html>

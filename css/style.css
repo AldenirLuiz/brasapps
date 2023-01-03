@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+footer {
+    align-items: center;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
 /* config. menu */
 
 #menuTitle{
@@ -80,7 +86,6 @@ a {
 /* fim config menu*/
 
 /* config. conteudo */
-
 .header.ads {
     background-color: #f5f5f5;
 }
@@ -93,17 +98,6 @@ a {
     border-top: 0px;
     border-left: 4px solid whitesmoke ;
     border-right: 4px solid whitesmoke;
-}
-
-.adsCard {
-    padding: 8px;
-    margin: 8px;
-    width: 20%;
-    height: fit-content;
-}
-
-#fixedAd {
-    width: 300px;
 }
 
 .tableau {
@@ -197,7 +191,26 @@ a {
     margin: 0px;
 }
 
-.spaceAds {
+.hiddenText {
+    visibility: hidden;
+}
+
+.visibleText {
+    visibility: visible;
+}
+
+/* fim config. conteudo*/
+
+/* conf. ads */
+
+.adsCard {
+    padding: 8px;
+    margin: 8px;
+    width: 20%;
+    height: fit-content;
+}
+
+.spaceAds { /* ads presente na area de leitura do flow */
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -213,7 +226,13 @@ a {
 }
 
 .imgAds {
+    width: 500px;
+    border: 2px dotted #f5f5f5;
+    box-shadow: 0px 2px 4px 4px #f5f5f5;
+}
+.imgAdsSide {
     width: 300px;
+    height: 200px;
     border: 2px dotted #f5f5f5;
     box-shadow: 0px 2px 4px 4px #f5f5f5;
 }
@@ -225,8 +244,7 @@ a {
     text-transform: capitalize; 
     text-overflow: ellipsis;
 }
-
-/* fim config. conteudo*/
+/* fim conf. ads */
 
 /* Config navigation */
 
@@ -319,3 +337,4 @@ color: blue;
 }
 
 /* fim Config Botoes */
+
