@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    size: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2,h3,p{
+    margin: 4px;
+    padding: 4px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.151);
+}
+
+img {
+    margin: auto;
+    display: block;
+  }
+
+.header{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 900px;
+}
+
+/*/* Side area */
+.side-area {
+    background-color: bisque;
+    width: 30%;
+    height: 100%;
+}
+/* end Side area */
+
+/*/* Main area */
+.main-area {
+    padding: 10px;
+    display: block;
+    block-size: 100%;
+    background-color: aliceblue;
+    width: 70%;
+    height: 100%;
+    color: rgb(20, 66, 80);
+}
+
+/* profile-content */
+#profile-content {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(28, 28, 59, 0.281);
+    height: 230px;
+}
+
+#profile-picture {
+    margin: 10px;
+    padding: 4px;
+    background-color: bisque;
+    height: 200px;
+    align-content: center;
+    border-radius: 100%;
+}
+
+#stats-content {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(28, 28, 59, 0.281);
+    border-top: 0;
+    margin: auto;
+}
+
+#stats-picture {
+    width: 40%;
+    border-left: 2px solid rgba(28, 28, 59, 0.281);
+}
+
+#brapps-icon {
+    margin: auto;
+    padding: 10px;
+}
+
+#stats-text {
+    width: 60%;
+}
+
+#context-menu {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(28, 28, 59, 0.281);
+    border-top: 0;
+    height: 200px;
+}
+
+#describle-text {
+    width:50%;
+    background-color: bisque;
+    height: 100%;
+    width: 300px;
+    border-right: 2px solid rgba(28, 28, 59, 0.281);
+}
+
+#describle-buttom {
+    display: flex;
+    width:50%;
+    background-color: bisque;
+    height: 80px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#btt-submit {
+    border: 0;
+    width: 80%;
+    height: 60%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
+}
+#btt-submit:hover {
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.267);
+    border: 2px ridge black;
+}
+
+#social-content {
+    display: flex;
+    height: 250px;
+    align-content: center;
+    border: 1px solid rgba(28, 28, 59, 0.281);
+}
+
+#github-stats {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    align-self: center;
+}
+
+/*/* end Main area */
