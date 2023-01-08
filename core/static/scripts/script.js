@@ -1,4 +1,5 @@
 
+
 function bttFunctionMore(section) {
     let paragraph = document.getElementById(section);
     let bttMin = document.getElementById("btnMin"+section);
@@ -19,18 +20,19 @@ function executaAcao(){
     window.location = "http://google.com";
 }
 
-setInterval(styleSheet, 1000)
+/*
 function styleSheet (widthDevice) {
     var widthDevice = screen.width
     let style = document.getElementById("primaryCss");
     let style1 = document.getElementById("secondaryCss");
     if (widthDevice >= 640){
-        style.setAttribute("href", "css/style-contato.css");
+        style.setAttribute("href", "{% static '/css/style-contato.css' %}");
         style1.setAttribute("href", "");
+        
     }
     else{
-        style1.setAttribute("href", "css/style-contatoAlternative.css");
+        style1.setAttribute("href", "{% static '/css/style-contatoAlternative.css' %}");
         style.setAttribute("href", "");
     }
 }
-
+*/

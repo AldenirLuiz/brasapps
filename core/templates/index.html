@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Sinopses, Filmes, Series, Portifólio, Sinopse, blog">
     <meta name="google-site-verification" content="0Pzjd7MAwPYEPtLavmcIzsnN8xiIcAjJ4KbPqN2KAL0" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="images/siteicon.ico" type="image/x-icon">
-    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="shortcut icon" href="{% static '/images/siteicon.ico'%}" type="image/x-icon">
+    <script src="{% static 'scripts/script.js' %}"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9041954249034519" crossorigin="anonymous"></script>
     <title>Aldenir - BRapps</title>
 </head>
@@ -37,7 +38,7 @@
             </div>
             <div class="textSpace">
                 <div class="img Space">
-                    <img class="img Capa" src="./images/O_Livro_de_El_poster.jpg" alt="imgCapa">
+                    <img class="img Capa" src="{% static '/images/O_Livro_de_El_poster.jpg'%}" alt="imgCapa">
                 </div>
                 <div class="title">
                     <h1>O Livro de Eli</h1>
@@ -56,7 +57,7 @@
             </div>
             <div class="textSpace">
                 <div class="img Space">
-                    <img class="img Capa" src="./images/capa_exercito_do_amanha.jpg" alt="imgCapa">
+                    <img class="img Capa" src="{% static '/images/capa_exercito_do_amanha.jpg'%}" alt="imgCapa">
                 </div>
                 <div class="title">
                     <h1>Exército do Amanhã</h1>
@@ -91,7 +92,7 @@
                                 <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
                                 <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
                             </svg>
-                            <a class="textLink" href="contato.html">Contato</a>
+                            <a class="textLink" href="#contato">Contato</a>
                         </la>
                     </div>
                     <div class="links" id="News" onclick="executaAcao('news')">
@@ -127,6 +128,6 @@
         </div>
     </section>
   </header>
-  <footer><span><img width="64" height="64" src="images/siteicon.jpg" alt="icon">2023 BRapps&reg;</span></footer>
+  <footer><span><img width="64" height="64" src="{% static 'images/siteicon.jpg'%}" alt="icon">2023 BRapps&reg;</span></footer>
 </body>
 </html>
