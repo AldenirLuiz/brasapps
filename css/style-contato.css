@@ -58,7 +58,11 @@ img {
     display: flex;
     flex-direction: row;
     border: 1px solid rgba(28, 28, 59, 0.281);
+<<<<<<< HEAD
     width:100%;
+=======
+    height: 240px;
+>>>>>>> 977a69928edec655ff30d8b97ad978c1384ad12c
 }
 
 #profile-picture {
