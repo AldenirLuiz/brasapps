@@ -27,12 +27,10 @@ img {
     align-items: center;
     justify-content: center;
     justify-items: center;
-    max-width: 900px;
 }
 
 .main-section {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 /*/* Side area */
@@ -48,15 +46,14 @@ img {
     padding: 10px;
     display: block;
     block-size: 100%;
+    max-width: 460px;
     background-color: aliceblue;
     color: rgb(20, 66, 80);
-    max-width: 800px;
 }
 
 /* profile-content */
 #profile-content {
-    display: flex;
-    flex-direction: row;
+    display: block;
     border: 1px solid rgba(28, 28, 59, 0.281);
     width:100%;
 }
@@ -75,8 +72,7 @@ img {
 }
 
 #stats-content {
-    display: flex;
-    flex-direction: row;
+    display: block;
     border: 1px solid rgba(28, 28, 59, 0.281);
     border-top: 0;
     margin: auto;
@@ -85,6 +81,8 @@ img {
 #stats-picture {
     display: flex;
     flex-direction: row;
+    max-width: 200px;
+    min-width: 180px;
 }
 
 #brapps-icon {
