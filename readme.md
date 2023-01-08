@@ -1,8 +1,9 @@
 <h1 align="center">
     Projeto de Blog Pessoal - 🖥️
 </h1>
-
-<h2>Acesse: </h2><a>https://aldenirluiz.github.io/brasapps/</a>
+<div align="center">
+  <h2>Acesse: </h2>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;🚀 <a>https://aldenirluiz.github.io/brasapps/</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p><br><br>
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -10,7 +11,7 @@
   <a href="#rodando">Rodando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
+</div>
 
 <a id="tecnologias"></a>
 
