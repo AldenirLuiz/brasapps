@@ -20,7 +20,7 @@ function executaAcao(){
     window.location = "http://google.com";
 }
 
-
+setInterval(styleSheet, 500);
 function styleSheet (widthDevice) {
     var widthDevice = screen.width
     let style = document.getElementById("primaryCss");
