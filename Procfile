@@ -1,1 +1,0 @@
-web: gunicorn brapps.wsgi --log-file -
