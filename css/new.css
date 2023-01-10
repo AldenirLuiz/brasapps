@@ -89,7 +89,10 @@ p {
 }
 
 #flowTitle {
+    display: flex;
+    flex-direction: row;
     border-bottom: 2px solid gray;
+    text-align: start;
 }
 
 .headerNav {
@@ -152,11 +155,11 @@ p {
 }
 
 #card-nostaugia {
-    background-image: url("../images/imgNostalgic.jpg");
+    background-image: url("../images/backgrounds/imgNostalgic.jpg");
     background-size: cover;
 }
 #card-tecnologia {
-    background-image: url("../images/imgtecnologia.jpg");
+    background-image: url("../images/backgrounds/imgtecnologia.jpg");
     background-size: cover;
 }
 
@@ -183,4 +186,5 @@ p {
 #brasaoBrApps {
     width: 10pc;
     height: auto;
+    margin-left: 100px;
 }
