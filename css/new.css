@@ -40,13 +40,6 @@ p {
 }
 
 
-
-.card {
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    padding: 16px;
-}
-
 /* Config dos blocos de layout da pagina */
 
 .content {
@@ -109,6 +102,14 @@ p {
 
 /* fim Config dos blocos de layout da pagina */
 
+
+.card {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px;
+}
+
 .tileDown {
     display: flex;
     flex-flow: row;
@@ -152,9 +153,11 @@ p {
 
 #card-nostaugia {
     background-image: url("../images/imgNostalgic.jpg");
+    background-size: cover;
 }
 #card-tecnologia {
     background-image: url("../images/imgtecnologia.jpg");
+    background-size: cover;
 }
 
 #textPrimary {
