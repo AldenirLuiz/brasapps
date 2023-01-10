@@ -1,13 +1,12 @@
 /* confs globais */
 body {
-    margin: 0px;
-    padding: 0px;}
+    margin: 0;
+    padding: 0;
+    }
 header {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
     border: 2px solid whitesmoke;}
 a {
     color: black;
@@ -18,14 +17,21 @@ footer {
     background-color: #f5f5f5;}
 
 /* config. menu */
+#menu-tittle {
+    justify-self: right;
+    font-size: xx-large;
+}
 #menuTitle{
-    display: flex;
-    flex-direction: row;}
+
+    display: block;
+    justify-self: right;
+}
 .menu {
     display: flex;
     color-scheme: whitesmoke white lightgray;
-    width: 100%;
-    height: 100%;}
+
+    background-color: red;
+}
 .menu.container {
     display: flex;
     flex-flow: column;
@@ -35,7 +41,6 @@ footer {
     width: 100%;
     height: 100px;}
 .menuTexts {
-    position: fixed;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='74' height='74' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23cccccc' fill-opacity='0.25'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.25'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
     display: flex;
     color: blue;
@@ -53,17 +58,13 @@ footer {
 .linkButons{
     padding: 10px;
     margin: 0px;}
-.prymary {
-    width: 100%;
-    height: 100px;
-    margin: 0;
-    padding: 0;}
+
 /* fim config menu*/
 
 /* config. conteudo */
 section.flow {
     width: 100%;
-    height: 100%;
+    max-width: 800px;
     border-radius: 0px 0px 8px 8px;
     border-top: 0px;
     border-left: 4px solid whitesmoke ;

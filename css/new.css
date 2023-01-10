@@ -1,0 +1,183 @@
+body {
+    padding: 0; 
+    margin: 0; 
+    display:flex;
+    flex-direction: column;
+    object-fit: contain;
+
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    font-weight: 400;
+    color: #3c4043;
+    letter-spacing: normal;
+    line-height: normal;
+    background-color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2{
+    text-align: center;
+    text-justify: inter-cluster;
+}
+
+h3 {
+    margin: 12px;
+    text-shadow: 0px 0px 4px white;
+}
+
+p {
+    background-color: whitesmoke;
+    text-align: justify;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    margin: 12px;
+    padding: 16px;
+    border-radius: 2px;
+}
+
+
+
+.card {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+/* Config dos blocos de layout da pagina */
+
+.content {
+    margin: 0px;
+    padding: 10px;
+    border:  1px solid rgba(128, 128, 128, 0.329);
+}
+
+.subContent {
+    margin: 0;
+    padding: 0px;
+    border-left: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.menu {
+    padding: 10px;
+    margin: 0px;
+}
+
+.fixedbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.divMenuDesc {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    
+
+}
+.divMenuHead {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+
+.header {
+    display:flex;
+}
+
+.headerFlow {
+    width: 80%; 
+    height: 100%; 
+    margin-left: 22px;
+}
+
+#flowTitle {
+    border-bottom: 2px solid gray;
+}
+
+.headerNav {
+    width: 20%;
+}
+
+.footer {
+    height: 100px;
+}
+
+/* fim Config dos blocos de layout da pagina */
+
+.tileDown {
+    display: flex;
+    flex-flow: row;
+}
+
+.btn {
+    border: 0;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+.bttMore{
+    padding: 4px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+
+.bttNav{
+    width: 100%;
+    height: 100%;
+}
+
+.bttLink {
+    text-emphasis: 10px;
+    text-align: start;
+    
+    width: 14pc;
+    height: 4pc;
+    font-weight: 100;
+    font-size: x-large;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+#btn-contato {
+    color: #3c4043;
+}
+
+#card-nostaugia {
+    background-image: url("../images/imgNostalgic.jpg");
+}
+#card-tecnologia {
+    background-image: url("../images/imgtecnologia.jpg");
+}
+
+#textPrimary {
+    background-color: whitesmoke;
+    text-align: right;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    margin: 12px;
+    padding: 16px;
+    border-radius: 2px;
+    margin-left: 40%;
+    width: 400px;
+    height: auto;
+}
+#textThirth {
+    width: 200px;
+    height: auto;
+}
+#textThirth {
+    width: 200px;
+    height: auto;
+}
+
+#brasaoBrApps {
+    width: 10pc;
+    height: auto;
+}

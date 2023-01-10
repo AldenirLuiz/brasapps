@@ -4,10 +4,12 @@ function bttFunctionMore(section) {
     let paragraph = document.getElementById(section);
     let bttMin = document.getElementById("btnMin"+section);
     if (bttMin.textContent == "Mais") {
+        alert("called plus")
         bttMin.textContent = "Menos"
         paragraph.classList.remove("hiddenText");
         paragraph.classList.add("visibleText");
     } else {
+        alert("called minus")
         bttMin.textContent = "Mais"
         paragraph.classList.remove("visibleText");
         paragraph.classList.add("hiddenText");
