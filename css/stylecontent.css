@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    font-weight: 400;
+    color: #3c4043;
+    letter-spacing: normal;
+    line-height: normal;
+    background-color: whitesmoke;
+}
+a {
+    text-decoration: none;
+}
+h1,h2{
+    text-align: center;
+    text-justify: inter-cluster;
+}
+h3 {
+    width: fit-content;
+    margin: 12px;
+    text-shadow: 0px 0px 4px white;
+    background-color: whitesmoke;
+}
+
+p {
+    text-align: justify;
+    border-radius: 2px;
+}
+
+.prev {
+    padding: 4px 0px;
+    margin: 0px 4px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    background-color: whitesmoke;
+}
+
+/*########################################### class ###########################################*/
+.card {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.btn {
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+.bttMore {
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    border: 0;
+}
+.bttLink {
+    text-align: start;
+    text-emphasis: 10px;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+/*######################################## end class #########################################*/
+
+
+/*########################################### id`s ###########################################*/
+#card-nostaugia {
+    background-image: url("../images/backgrounds/imgNostalgic.jpg");
+    background-size: auto;
+}
+#card-tecnologia {
+    background-image: url("../images/backgrounds/imgtecnologia.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#textPrimary {
+    background-color: whitesmoke;
+    text-align: right;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    margin-left: 40%;
+}
+#textSecondary {
+    background-color: whitesmoke;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    margin-right: 40%;
+}
+
+/*########################################### id`s ###########################################*/
