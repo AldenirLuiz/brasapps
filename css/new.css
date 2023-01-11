@@ -156,11 +156,12 @@ p {
 
 #card-nostaugia {
     background-image: url("../images/backgrounds/imgNostalgic.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 #card-tecnologia {
     background-image: url("../images/backgrounds/imgtecnologia.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #textPrimary {
@@ -187,4 +188,12 @@ p {
     width: 10pc;
     height: auto;
     margin-left: 100px;
+}
+
+
+#targetGoogleAds {
+    padding: 24px 0px 20px; 
+    margin: 30px 0px; 
+    min-width: 336px; 
+    min-height: 280px;
 }
