@@ -83,7 +83,7 @@ p {
 .backgroundCard {
     position: relative;
     z-index: 0;
-    background-size: auto;
+    background-clip: content-box;
     background-repeat: no-repeat;
 }
 
