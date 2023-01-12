@@ -10,7 +10,9 @@ body {
     background-color: whitesmoke;
 }
 a {
+    padding: 8px;
     text-decoration: none;
+    color: black;
 }
 h1,h2{
     text-align: center;
@@ -57,19 +59,34 @@ p {
     font-size: x-large;
 }
 
+.bttNav {
+    border-bottom: 1px solid gray;
+}
+
 /*######################################## end class #########################################*/
 
 
 /*########################################### id`s ###########################################*/
+
+#tittleFlow {
+    padding: 12px;
+    margin: 16px;
+}
+
 #card-nostaugia {
     background-image: url("../images/backgrounds/imgNostalgic.jpg");
-    background-size: auto;
 }
 #card-tecnologia {
     background-image: url("../images/backgrounds/imgtecnologia.jpg");
+}
+
+.backgroundCard {
+    position: relative;
+    z-index: 0;
     background-size: auto;
     background-repeat: no-repeat;
 }
+
 #textPrimary {
     background-color: whitesmoke;
     text-align: right;
@@ -84,5 +101,19 @@ p {
     border-radius: 2px;
     margin-right: 40%;
 }
+
+#bttLinkedin {
+    color: darkblue;
+}
+#bttInstagram {
+    color: purple;
+}
+#bttFacebook {
+    color: blue;
+}
+#bttYoutube {
+    color: red;
+}
+
 
 /*########################################### id`s ###########################################*/
