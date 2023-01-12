@@ -18,19 +18,16 @@ p {
 .content {
     margin: 0px;
     padding: 10px;
-    border:  1px solid rgba(128, 128, 128, 0.329);
 }
 
 .subContent {
     margin: 0;
     padding: 0px;
-    border-left: 1px solid rgba(128, 128, 128, 0.329);
 }
 
 .menu {
     padding: 10px;
     margin: 0px;
-    
 }
 
 .fixedbar {
@@ -98,13 +95,15 @@ p {
 }
 
 .bttNav{
-    margin: 12px;
+    padding: 8px 8px 8px 0;
+    margin: 0;
     width: 100%;
     height: fit-content;
 }
 
 .bttSocial {
-    margin: auto;
+    padding: 8px 8px 8px 0;
+    margin: 0;
     width: 100%;
     height: fit-content;
 }
@@ -117,11 +116,11 @@ p {
 }
 
 #textPrimary {
-    margin: auto;
-    padding: auto;
-    max-width: 400px;
+    padding: 12px;
+    max-width: 40%;
     height: auto;
 }
+
 #textThirth {
     margin: auto;
     padding: auto;
