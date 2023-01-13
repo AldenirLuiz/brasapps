@@ -102,6 +102,8 @@ p {
 }
 
 .bttSocial {
+    display: flex;
+    flex-direction: column;
     padding: 8px 8px 8px 0;
     margin: 0;
     width: 100%;
@@ -109,9 +111,9 @@ p {
 }
 
 .bttLink {
-    width: 14pc;
-    height: 4pc;
-    padding: 12px;
+    width: 10pc;
+    height: 3pc;
+    padding: 4px;
     margin-bottom: 10px;
 }
 
