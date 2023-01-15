@@ -6,7 +6,7 @@ const style1 = document.getElementById("secondaryCss");
 if (internet()) {
     addBanerGithub();
 }else{
-    console.log("Internet Dissabled")
+    console.log("Internet Dissabled");
 }
 
 function addBanerGithub () {
@@ -18,12 +18,10 @@ function addBanerGithub () {
 let styleTypeLoader = window.setInterval(function () {
     var widthDevice = screen.width;
     if (widthDevice >= 640){
-        console.log(widthDevice)
         style.setAttribute("href", "../css/style-contato.css");
         style1.setAttribute("href", ""); 
     }
     else{
-        console.log(widthDevice)
         style1.setAttribute("href", "../css/style-contatoAlternative.css");
         style.setAttribute("href", "");
     }

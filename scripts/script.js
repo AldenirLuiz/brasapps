@@ -9,7 +9,6 @@ const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
 function queryPageLoad(idCard, idClic) {
     let target = document.getElementById(idCard);
     var pageIteligencia = '../pages/contato.html'
-    console.log(target)
     let input = document.getElementById(idClic);
     target.innerHTML = `<div class='card backgroundCard'><object id='flowObject' type='text/html' data='${pageIteligencia}'></object></div>`;
 }
