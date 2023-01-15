@@ -5,10 +5,11 @@ let     :-> Declara uma variável local de escopo do bloco, opcionalmente, inici
 const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
 */
 
-const pageIteligencia = '../pages/contato.html'
+
 
 function queryPageLoad(idCard, idClic) {
     let target = document.getElementById(idCard);
+    let pageIteligencia = '../pages/contato.html'
     console.log(target)
     let input = document.getElementById(idClic);
     target.innerHTML = `<div class='card backgroundCard'><object id='flowObject' type='text/html' data='${pageIteligencia}'></object></div>`;
