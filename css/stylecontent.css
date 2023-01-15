@@ -1,7 +1,7 @@
 body {
     font-family: Roboto,Arial,sans-serif;
     line-height: 1.25rem;
-    font-size: .875rem;
+    font-size: large;
     letter-spacing: .0142857143em;
     font-weight: 400;
     color: #3c4043;
@@ -42,6 +42,11 @@ p {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     background-color: #f5f5f5;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
 }
 
 .sub-card {
@@ -125,5 +130,9 @@ p {
     color: red;
 }
 
+#pTextual {
+    align-self: center;
+    max-width: 700px;
+}
 
 /*########################################### id`s ###########################################*/
