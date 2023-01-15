@@ -38,10 +38,6 @@ p {
 
 /*########################################### class ###########################################*/
 
-.conteudo {
-    min-height: 1600px;
-}
-
 .card {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
     border-radius: 8px;

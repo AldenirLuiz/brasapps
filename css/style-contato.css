@@ -1,20 +1,36 @@
+
 body {
-    margin: 0;
-    padding: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1.25rem;
+    font-size: .875rem;
+    letter-spacing: .0142857143em;
+    font-weight: 400;
+    color: #3c4043;
+    letter-spacing: normal;
+    line-height: normal;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: left;
 }
 
-h1,h2,h3,p{
+p, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    width: fit-content;
+}
+
+.texts{
+    width: fit-content;
     margin: 4px;
     padding: 4px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.13);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.151);
-    display: block;
-    align-items: center;
-    text-align: justify;
 }
 
 img {
@@ -22,46 +38,20 @@ img {
     display: flex;
   }
 
-.header{
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    max-width: 900px;
-}
-
 #menuBar {
     display: block;
     width: 100%;
 }
 
-.menuBar {
-    display: flex;
-    flex-direction: column;
-}
-
-.main-section {
-    display: flex;
-    flex-direction: column;
-}
-
-/*/* Side area */
-.side-area {
-    background-color: bisque;
-    width: 30%;
-    height: 100%;
-}
-/* end Side area */
-
 /*/* Main area */
 .main-area {
     padding: 10px;
-    display: block;
-    block-size: 100%;
-    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
     color: rgb(20, 66, 80);
-    max-width: 800px;
 }
+
 
 /* profile-content */
 #profile-content {
@@ -74,7 +64,7 @@ img {
 #profile-picture {
     margin: auto;
     padding: 4px;
-    background-color: bisque;
+    background-color: #f5f5f5;
     align-content: center;
     border-radius: 100%;
     width: 40%;
@@ -115,7 +105,7 @@ img {
 
 #describle-text {
     width:50%;
-    background-color: bisque;
+    background-color: #f5f5f5;
     height: 100%;
     border-right: 2px solid rgba(28, 28, 59, 0.281);
 }
@@ -123,7 +113,7 @@ img {
 #describle-buttom {
     display: flex;
     width:50%;
-    background-color: bisque;
+    background-color: #f5f5f5;
     align-items: center;
     justify-content: center;
 }
@@ -152,6 +142,58 @@ img {
     margin: auto;
     padding: auto;
     align-self: center;
+}
+
+.tags {
+    width: fit-content;
+    display:flex;
+    flex-direction: column;
+}
+
+.tag {
+    display: flex;
+    width: fit-content;
+    border-radius: 6px;
+    margin: 4px;
+    padding: 0;
+}
+
+#row0 {
+    display: flex;
+    flex-direction: row;
+}
+
+#tagHtml {
+    margin-left: 8px;
+    background-color: burlywood;
+    border-radius: 6px;
+}
+#tagCss {
+    margin-left: 8px;
+    background-color: aqua;
+}
+#tagJs {
+    margin-left: 8px;
+    background-color: yellow;
+}
+.dvTagFirst {
+    padding: 8px;
+    margin: auto;
+    width: 60%;
+    float: left;
+    background-color: rgba(255, 0, 0, 0.5);
+    background-blend-mode: color-dodge;
+    color: whitesmoke;
+    border-radius: 6px 0px 0px 6px;
+}
+.dvTagLast {
+    padding: 8px;
+    margin: auto;
+    width: 40%;
+    float: right;
+    background-color: rgba(0, 0, 255, 0.5);
+    color: whitesmoke;
+    border-radius: 0px 6px 6px 0px;
 }
 
 /*/* end Main area */

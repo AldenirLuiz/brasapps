@@ -137,3 +137,9 @@ p {
     margin-left: 100px;
 }
 
+#flowObject {
+    width: 100%;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

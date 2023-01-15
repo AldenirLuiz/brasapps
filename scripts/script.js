@@ -1,4 +1,18 @@
 
+/*
+var     :-> Declara uma variável, opcionalmente, inicializando-a com um valor.
+let     :-> Declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.
+const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
+*/
+
+const pageIteligencia = '../pages/contato.html'
+
+function queryPageLoad(idCard, idClic) {
+    let target = document.getElementById(idCard);
+    console.log(target)
+    let input = document.getElementById(idClic);
+    target.innerHTML = `<div class='card backgroundCard'><object id='flowObject' type='text/html' data='${pageIteligencia}'></object></div>`;
+}
 
 function bttFunctionMore(section) {
     let paragraph = document.getElementById(section);
@@ -21,18 +35,4 @@ function executaAcao(){
     window.location = "http://google.com";
 }
 
-setInterval(styleSheet, 500);
-function styleSheet (widthDevice) {
-    var widthDevice = screen.width
-    let style = document.getElementById("primaryCss");
-    let style1 = document.getElementById("secondaryCss");
-    if (widthDevice >= 640){
-        style.setAttribute("href", "css/style-contato.css");
-        style1.setAttribute("href", "");
-        
-    }
-    else{
-        style1.setAttribute("href", "css/style-contatoAlternative.css");
-        style.setAttribute("href", "");
-    }
-}
+
