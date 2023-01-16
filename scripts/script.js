@@ -37,7 +37,7 @@ function bttFunctionMore(section) {
 function goToPage(page) {
     let linked = window.location.pathname;
     console.log(window.location.hostname)
-    //window.location.replace(linked+page)
+    window.location.replace(linked+page)
 }
 
 /* Contador */
