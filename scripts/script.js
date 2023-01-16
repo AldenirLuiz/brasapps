@@ -5,14 +5,17 @@ let     :-> Declara uma variável local de escopo do bloco, opcionalmente, inici
 const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
 */
 
-
+/* Esta função adiciona uma pagina dentro de um objeto com id: "idCard"
 function queryPageLoad(idCard, idClic) {
     let target = document.getElementById(idCard);
     var pageIteligencia = '../pages/contato.html'
     let input = document.getElementById(idClic);
     target.innerHTML = `<div class='card backgroundCard'><object id='flowObject' type='text/html' data='${pageIteligencia}'></object></div>`;
 }
+*/
 
+
+/*  Not Used
 function bttFunctionMore(section) {
     let paragraph = document.getElementById(section);
     let bttMin = document.getElementById("btnMin"+section);
@@ -27,6 +30,14 @@ function bttFunctionMore(section) {
         paragraph.classList.remove("visibleText");
         paragraph.classList.add("hiddenText");
     }
+}
+*/
+
+
+function goToPage(page) {
+    let linked = window.location.host;
+    console.log(window.location.hostname)
+    window.location.replace(page)
 }
 
 /* Contador */
