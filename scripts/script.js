@@ -36,7 +36,13 @@ function bttFunctionMore(section) {
 
 function goToPage(page) {
     let linked = window.location;
-    window.location.replace(linked+page)
+    let orign = window.location.origin
+    if (page == "") {
+        window.location.replace(orign)
+    }else{
+        window.location.replace(linked+page)
+    }
+    
 }
 
 /* Contador */
