@@ -59,6 +59,10 @@ p {
     margin-left: 22px;
 }
 
+.bi {
+    align-self: center;
+}
+
 #flowTitle {
     display: flex;
     flex-direction: row;

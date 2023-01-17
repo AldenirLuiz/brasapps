@@ -35,7 +35,7 @@ function bttFunctionMore(section) {
 
 
 function goToPage(page) {
-    let linked = window.location.pathname;
+    let linked = window.location;
     console.log(window.location.hostname)
     window.location.replace(linked+page)
 }
