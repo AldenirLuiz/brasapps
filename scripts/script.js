@@ -7,8 +7,9 @@ const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
 
 
 function goToPage(page) {
+    console.log(window.location.ancestorOrigins)
     if (page == "home") {
-        window.location.replace(origin)
+        window.location.replace("https://aldenirluiz.github.io/brasapps/")
     }else{
         window.location.replace(origin+page);
     }
