@@ -76,7 +76,16 @@ p {
 }
 
 .footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
     height: 100px;
+}
+
+.footerContent {
+    justify-content: flex-start;
+    width: 50%;
 }
 
 /* fim Config dos blocos de layout da pagina */
@@ -90,6 +99,11 @@ p {
 .tileDown {
     display: flex;
     flex-direction: row;
+}
+
+.card {
+    
+    background-image: linear-gradient(to right, rgba(255, 189, 127, 0.1), rgba(127, 255, 212, 0.1));
 }
 
 .bttMore{
