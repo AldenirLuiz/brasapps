@@ -7,11 +7,11 @@ const   :-> Declara uma constante de escopo de bloco, apenas de leitura.
 
 
 function goToPage(page) {
-    console.log(window.location.ancestorOrigins)
-    if (page == "home") {
-        window.location.replace("https://aldenirluiz.github.io/brasapps/")
+    let hostName = window.location.origin
+    if (hostName == "http://127.0.0.1:5500") {
+        window.location.replace(page)
     }else{
-        window.location.replace(origin+page);
+        window.location.replace(`/brasapps${page}`);
     }
 }
 
