@@ -12,7 +12,7 @@ function goToPage(page) {
         alert(`Am going to: ${hostName+page}`)
         window.location.replace(page)
     }else{
-        alert(`Am going to: ${hostName+page}`)
+        alert(`Am going to: ${hostName}/brasapps${page}`)
         window.location.replace(`/brasapps${page}`);
     }
 }
