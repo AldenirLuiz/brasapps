@@ -1,14 +1,16 @@
 body {
     display: flex;
+    justify-content: space-around;
     font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: 700;
     margin-right: auto;
-    width: 100vh;
-    height: 100%;
+    height: 100vh;
 }
 
 h1,h2,h3,p{
-    margin: 4px;
-    padding: 4px;
+    margin: 9px;
+    padding: 12px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.13);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.151);
     display: block;
@@ -19,25 +21,25 @@ h1,h2,h3,p{
 img {
     margin: auto;
     display: flex;
-  }
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
 
 /*/* Main area */
 .main-area {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 100%;
-    max-width: 800px;
     background-color: aliceblue;
     color: rgb(20, 66, 80);
 }
 
 /* profile-content */
 #profile-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
     border: 1px solid rgba(28, 28, 59, 0.281);
-    width:100%;
 }
 
 #profile-picture {
@@ -46,7 +48,6 @@ img {
     background-color: bisque;
     align-content: center;
     border-radius: 100%;
-    width: 40%;
 }
 
 #profile-text {
@@ -63,8 +64,6 @@ img {
 #stats-picture {
     display: flex;
     flex-direction: row;
-    max-width: 200px;
-    min-width: 180px;
 }
 
 #brapps-icon {
@@ -84,15 +83,12 @@ img {
 }
 
 #describle-text {
-    width:50%;
     background-color: bisque;
-    height: 100%;
     border-right: 2px solid rgba(28, 28, 59, 0.281);
 }
 
 #describle-buttom {
     display: flex;
-    width:50%;
     background-color: bisque;
     align-items: center;
     justify-content: center;
@@ -100,8 +96,6 @@ img {
 
 #btt-submit {
     border: 0;
-    width: 80%;
-    height: 60%;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.089);
 }
@@ -112,7 +106,6 @@ img {
 
 #social-content {
     display: flex;
-    height: 250px;
     align-content: center;
     border: 1px solid rgba(28, 28, 59, 0.281);
 }
@@ -160,7 +153,6 @@ img {
 .dvTagFirst {
     padding: 8px;
     margin: auto;
-    width: 60%;
     float: left;
     background-color: rgba(255, 0, 0, 0.5);
     background-blend-mode: color-dodge;
@@ -170,7 +162,6 @@ img {
 .dvTagLast {
     padding: 8px;
     margin: auto;
-    width: 40%;
     float: right;
     background-color: rgba(0, 0, 255, 0.5);
     color: whitesmoke;

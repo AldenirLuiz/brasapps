@@ -38,6 +38,10 @@ img {
     display: flex;
   }
 
+.profile-pict {
+    border-radius: 100%;
+}
+
 #menuBar {
     display: block;
     width: 100%;
