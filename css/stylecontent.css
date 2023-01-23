@@ -8,15 +8,25 @@ body {
     line-height: 1.25rem;
     font-size: large;
     letter-spacing: .0142857143em;
-    font-weight: 400;
+    font-weight: 500;
     color: #3c4043;
     letter-spacing: normal;
     line-height: normal;
     background-color: whitesmoke;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
     background-image: var(--backgroun-gradient);
+    margin: 0;
 }
+
+li {
+    padding: 4px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    text-justify: distribute;
+}
+
 a {
     padding: 8px;
     text-decoration: none;
@@ -24,16 +34,16 @@ a {
 }
 h1,h2{
     text-align: center;
-    text-justify: inter-cluster;
+    text-justify: distribute;
 }
 h3 {
     width: fit-content;
-    margin: 12px;
+    margin: 6px;
 }
 
 p {
     text-align: justify;
-    border-radius: 2px;
+    margin: 6px;
 }
 
 .prev {
@@ -60,8 +70,8 @@ p {
 }
 
 .prologue{
-    margin: 12px;
-    padding: 12px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .btn {
