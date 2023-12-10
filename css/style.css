@@ -110,15 +110,15 @@ main{
 main section {
     width: 100%;
     margin: 10px;
-    background: linear-gradient( white, whitesmoke, aliceblue);
     border-radius: 8px;
 }
 
 .card {
-    width: calc(100% - 32px);
+    width: 100%;
     border-radius: 16px;
     border: solid rgba(0, 0, 0, .1) 2px;
     padding-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .card a {
@@ -135,6 +135,7 @@ main section {
     align-items: center;
 }
 
+
 h2 {
     font-size: 24pt;
 }
@@ -143,11 +144,21 @@ h2 {
     padding: 0;
 }
 
+.project{
+    margin-bottom: 64px;
+}
+
+.project-endpoint{
+    margin-top: 64px;
+    background: darkgrey;
+    border-radius: 0px 0px 16px 16px;
+}
 .titles{
-    background-color: lch(from red 90 1 3);
+    background: darkgrey;
     width: 100%;
     padding: 0;
     margin: 0;
+    margin-bottom: 32px;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -204,6 +215,21 @@ a {
 }
 
 @media only screen and (max-width: 717px){
+
+    #my-name-container{
+        background-color: lch(from red 90 1 3);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 8px 8px 0px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #my-name-container h2{
+        align-self: center;
+    }
 
     #title_c #title{
         font-size: 24pt;
